@@ -7,6 +7,11 @@ class TicTacToe
 
     static void Main()
     {
+        InicializarJuego();
+    }
+
+    public static void InicializarJuego()
+    {
         Console.Write("Enter the number of rows: ");
         int rows = Convert.ToInt32(Console.ReadLine());
 
